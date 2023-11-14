@@ -19,7 +19,7 @@ def scrape(name,length=2):
 
     result = wp.summary(name,sentences=length)
     click.echo(click.style(result, bg='white', fg='cyan'))
-
+    return result
 
 if __name__ == '__main__':
     scrape()
