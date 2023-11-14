@@ -1,5 +1,5 @@
 from hello import add,sub 
-from wikibot import scrape
+#from wikibot import scrape
 
 def test_add():
 
