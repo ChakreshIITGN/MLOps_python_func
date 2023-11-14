@@ -16,3 +16,23 @@ This repository is part of an exercise to understand the CI/CD using python and 
 > This is good since it will be easy to maintain and install dependencies for python
 
 ## Creating a Scaffold
+
+
+### Runnning the Post request 
+`curl -X 'POST' \
+  'https://sturdy-space-journey-7rrqv779v9rcxr66-8080.app.github.dev/wiki' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "name": "Microsoft",
+    "length": 3
+    }'`
+
+
+### Building an image - 
+
+    `docker build .`
+    `docker image -ls`
+
+to run  - `docker run -p 127.0.0.1:8080:8080 <imageID>`
+
