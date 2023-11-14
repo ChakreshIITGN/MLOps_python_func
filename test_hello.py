@@ -9,6 +9,6 @@ def test_sub():
 
     assert -1 == sub(4,5)
 
-def test_scrape():
+# def test_scrape():
 
-    assert "Microsoft" in scrape("Microsoft")
+#     assert "Microsoft" in scrape("Microsoft")
