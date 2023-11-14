@@ -1,4 +1,5 @@
 from hello import add,sub 
+from wikibot import scrape
 
 def test_add():
 
@@ -7,3 +8,7 @@ def test_add():
 def test_sub():
 
     assert -1 == sub(4,5)
+
+def test_scrape():
+
+    assert "Microsoft" in scrape("Microsoft")
