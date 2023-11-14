@@ -1,3 +1,6 @@
+
+[![Python application test with Github Actions](https://github.com/ChakreshIITGN/MLOps_python_func/actions/workflows/main.yml/badge.svg)](https://github.com/ChakreshIITGN/MLOps_python_func/actions/workflows/main.yml)
+
 # MLOps_python_func
 This repository is part of an exercise to understand the CI/CD using python and github actions 
 
