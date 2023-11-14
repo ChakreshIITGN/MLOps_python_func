@@ -1,5 +1,5 @@
 import wikipedia as wp
-import click
+import click  # pylint: disable=unused-import
 
 ## this part is good for a test function but now we implement using click library which is a neater way of passing args. 
 
@@ -22,4 +22,4 @@ def scrape(name,length=2):
     return result
 
 if __name__ == '__main__':
-    scrape()
+    scrape() # pylint: disable=no-value-for-parameter 
